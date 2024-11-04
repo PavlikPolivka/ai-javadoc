@@ -4,6 +4,9 @@
     <description>Generates Javadoc for methods using an AI-powered API.</description>
     <vendor email="polivka.pavel@gmail.com" url="https://ppolivka.com">Pavel Polivka</vendor>
 
+    <depends>com.intellij.modules.platform</depends>
+    <depends>com.intellij.modules.java</depends>
+
     <actions>
         <action id="GenerateJavadocAction" class="com.ppolivka.javadocer.GenerateJavadocAction"
                 text="Generate Javadoc" description="Generates Javadoc for the selected method">
