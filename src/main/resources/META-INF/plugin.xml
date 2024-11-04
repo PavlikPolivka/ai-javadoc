@@ -1,0 +1,14 @@
+<idea-plugin>
+    <id>com.ppolivka.javadocer</id>
+    <name>AI Auto Javadoc Generator</name>
+    <description>Generates Javadoc for methods using an AI-powered API.</description>
+    <vendor email="polivka.pavel@gmail.com" url="https://ppolivka.com">Pavel Polivka</vendor>
+
+    <actions>
+        <action id="GenerateJavadocAction" class="com.ppolivka.javadocer.GenerateJavadocAction"
+                text="Generate Javadoc" description="Generates Javadoc for the selected method">
+            <add-to-group group-id="GenerateGroup" anchor="last"/>
+            <keyboard-shortcut keymap="$default" first-keystroke="ctrl alt shift J"/>
+        </action>
+    </actions>
+</idea-plugin>
